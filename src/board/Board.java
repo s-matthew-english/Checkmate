@@ -1,13 +1,8 @@
 package board;
 
-//import com.mate.Main;
+
 import org.json.simple.JSONArray;
-import org.json.simple.parser.JSONParser;
-import java.io.FileReader;
-import java.io.IOException;
 
-
-import org.json.simple.JSONObject;
 
 
 
