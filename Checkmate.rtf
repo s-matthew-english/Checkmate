@@ -1,0 +1,58 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww19480\viewh12600\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 Checkmate Plan
+\b0 \
+\
+Piece Class\
+	Char color;\
+	Char piece type;\
+\
+\
+Square Class\
+	Boolean empty;\
+	Piece pi;\
+\
+\
+Fill Board Class -> given json file \'97> returns  2d array of squares (how should board be encoded)?\
+	Create 2d array of squares\
+	Read in JSON File\
+	Create JSONArray - the array of rows\
+	For each Item in Row array\
+		Create Row Obj \
+		For each row obj\
+			Create obj array from values\
+			For each obj in array (representing a square)\
+				create new piece obj from \{\'93Column 1\'94 : \'93BlackRook\'94\} \'97> Square class needs a 
+\b constructor
+\b0  given this obj\
+				// if the obj is empty i.e \{\}, creates an empty square\
+			\
+\
+\
+\
+\
+Checkmate class - \
+	fill board method\
+		read in ChessData.json file\
+			array of row objects\
+			iterate through rows\
+				\
+				\
+		\
+		\
+	in check method \
+	in checkmate method\
+\
+\
+\
+ChessData.json\
+	array of row objects\
+	Row Object\
+		\{\'93(String) \'93row name\'94 : (array) [ \{ (String) \'93column name\'94 : (String) \'93Piece\'94 \}, \'85. \{\}]\
+	\
+}
